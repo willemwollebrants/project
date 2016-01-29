@@ -18,6 +18,9 @@ $dirs = [
     "{$cwd}/{$pub}/js",
     "{$cwd}/{$pub}/img",
     "{$cwd}/system/app/src",
+    "{$cwd}/system/app/src/Controller",
+    "{$cwd}/system/app/src/Entity",
+    "{$cwd}/system/app/src/Form",
 ];
 
 foreach ($dirs as $dir) {
