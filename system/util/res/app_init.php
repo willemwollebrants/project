@@ -1,7 +1,6 @@
 /* @var $al \Composer\Autoload\ClassLoader */
 
 $al = include __DIR__ . "/vendor/autoload.php";
-$al->addPsr4("%NSS%\\", __DIR__ . "/app/src");
 
 /**
  * @return \%NS%\Application
