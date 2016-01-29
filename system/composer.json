@@ -19,6 +19,6 @@
     ],
     "require": {
         "studiow/php-template": "dev-master",
-        "willemwollebrants/mikro": "dev-master"
+        "studiow/mikro": "dev-master"
     }
 }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a883d07e08014c52091c0695a3c61be",
-    "content-hash": "9a6298ebd856174086c8e585fb59b698",
+    "hash": "e8f3e2d87b2a1565841d108ce3aca7b1",
+    "content-hash": "07683ead2d0f01ec8eddff650ab22706",
     "packages": [
         {
             "name": "ircmaxell/password-compat",
@@ -259,6 +259,44 @@
             "time": "2015-12-20 19:50:12"
         },
         {
+            "name": "studiow/mikro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willemwollebrants/mikro.git",
+                "reference": "5549990f370cee5fb5b137d1553dcfa7746ac571"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willemwollebrants/mikro/zipball/5549990f370cee5fb5b137d1553dcfa7746ac571",
+                "reference": "5549990f370cee5fb5b137d1553dcfa7746ac571",
+                "shasum": ""
+            },
+            "require": {
+                "league/event": "^2.1",
+                "league/route": "^1.2",
+                "studiow/php-template": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Studiow\\Mikro\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Willem Wollebrants",
+                    "email": "willem@studiow.be"
+                }
+            ],
+            "description": "tiny framework",
+            "support": {
+                "source": "https://github.com/willemwollebrants/mikro/tree/master",
+                "issues": "https://github.com/willemwollebrants/mikro/issues"
+            },
+            "time": "2016-01-29 15:33:15"
+        },
+        {
             "name": "studiow/php-template",
             "version": "dev-master",
             "source": {
@@ -472,39 +510,6 @@
                 "shim"
             ],
             "time": "2016-01-20 09:13:37"
-        },
-        {
-            "name": "willemwollebrants/mikro",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/willemwollebrants/mikro.git",
-                "reference": "65d2aae1f5b9825721fd3f21ec60a5f11ca3d31a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/willemwollebrants/mikro/zipball/65d2aae1f5b9825721fd3f21ec60a5f11ca3d31a",
-                "reference": "65d2aae1f5b9825721fd3f21ec60a5f11ca3d31a",
-                "shasum": ""
-            },
-            "require": {
-                "league/event": "^2.1",
-                "league/route": "^1.2",
-                "studiow/php-template": "dev-master"
-            },
-            "type": "library",
-            "authors": [
-                {
-                    "name": "Willem Wollebrants",
-                    "email": "willem@studiow.be"
-                }
-            ],
-            "description": "tiny framework",
-            "support": {
-                "source": "https://github.com/willemwollebrants/mikro/tree/master",
-                "issues": "https://github.com/willemwollebrants/mikro/issues"
-            },
-            "time": "2016-01-29 15:04:01"
         }
     ],
     "packages-dev": [],
@@ -512,7 +517,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "studiow/php-template": 20,
-        "willemwollebrants/mikro": 20
+        "studiow/mikro": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
