@@ -17,6 +17,7 @@ $dirs = [
     "{$cwd}/{$pub}/css",
     "{$cwd}/{$pub}/js",
     "{$cwd}/{$pub}/img",
+    "{$cwd}/system/app/src",
 ];
 
 foreach ($dirs as $dir) {
