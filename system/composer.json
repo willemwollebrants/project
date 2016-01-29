@@ -1,0 +1,24 @@
+{
+    "name": "willemwollebrants/project",
+    "description": "project skeleton",
+    "authors": [
+        {
+            "name": "Willem Wollebrants",
+            "email": "willem@studiow.be"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/studiowbe/php-template.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/willemwollebrants/mikro.git"
+        }
+    ],
+    "require": {
+        "studiow/php-template": "dev-master",
+        "willemwollebrants/mikro": "dev-master"
+    }
+}
