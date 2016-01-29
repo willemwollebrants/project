@@ -63,4 +63,4 @@ foreach ($files_sys as $target => $src) {
 $composer = "{$cwd}/system/composer.json";
 $co =  json_decode(file_get_contents($composer), true);
 $co['autoload']['psr-4']["{$nss}\\"] = "/app/src";
-file_put_contents($composer, json_encode($co));
+file_put_contents($composer, json_encode($co, JSON_UNESCAPED_SLASHES));
